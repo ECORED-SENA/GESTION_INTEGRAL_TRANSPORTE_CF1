@@ -51,7 +51,7 @@
             p.mb-0 La Asociación Latinoamericana de Integración, Aladi, es un organismo internacional de ámbito regional, cuyo objetivo final es el establecimiento de un mercado común latinoamericano, creado el 12 de agosto de 1980 por el Tratado de Montevideo, sustituyendo a la Asociación Latinoamericana de Libre Comercio creada en 1960 cuyo objetivo, entre otros, era el de reducir y eliminar gradualmente las trabas al comercio recíproco de sus países miembros.
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema3-2-imagen1.png', alt='3.2. Transporte internacional de mercancías por carretera')
+          img(src='@/assets/curso/tema3-2-imagen1.png', alt='Transporte internacional de mercancías por carretera')
 
 
     .tarjeta.tarjeta--gris.p-4.p-md-5.mb-5
@@ -82,7 +82,7 @@
         .tarjeta.color-primario.py-3.px-lg-5.px-4
           .row.justify-content-center.align-items-center
             .col-lg-1
-            .col-3.col-sm-2.col-lg-2.px-lg-4
+            .col-3.col-sm-2.col-lg-2.px-lg-3
               img.px-lg-2(src="@/assets/curso/tema3-3.svg")
             .col
               .row.justify-content-between.align-items-center
@@ -90,7 +90,7 @@
                   h3.mb-1 Línea de tiempo
                   p.mb-0.text-small La CAN en la historia. 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Linea_de_tiempo_La_CAN.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.texto-negro(:href="obtenerLink('/downloads/Linea_de_tiempo_La_CAN.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download   
 
