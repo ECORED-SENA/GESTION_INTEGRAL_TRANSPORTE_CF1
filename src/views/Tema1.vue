@@ -19,7 +19,7 @@
         .nav-holder2.align-items-center
           img(src="@/assets/curso/tema1-hover.svg", alt="Entidades adscritas al Ministerio de Transporte")
           .text.p-lg-3.p-4
-            .row.px-lg-4.mb-3.mb-lg-2
+            .row.px-lg-4.mb-4.mb-lg-2
               .col-lg-2.col-3
                 img(src="@/assets/curso/tema1-hover2-ico2.svg", alt="Entidades adscritas al Ministerio de Transporte")
               .col-lg-10.col-9 
@@ -46,7 +46,7 @@
           .indicador--click(v-if="mostrarIndicador")
           img(src="@/assets/curso/tema1-hover2.svg", alt="Órganos de asesoría y coordinación sectorial")
           .text.p-lg-3.p-4
-            .row.align-items-center.px-lg-4.mb-3.mb-lg-2
+            .row.align-items-center.px-lg-4.mb-3.mb-lg-4
               .col-lg-2.col-3
                 img(src="@/assets/curso/tema1-hover2-ico1.svg", alt="Órganos de asesoría y coordinación sectorial")
               .col-lg-10.col-9

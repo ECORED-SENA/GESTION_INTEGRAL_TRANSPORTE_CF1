@@ -226,7 +226,7 @@ export default {
         'ciencia que se dedica al estudio de las causas técnicas, científicas, económicas y sociales que aceleran la evolución del mundo moderno, y la previsión de las situaciones que podrían derivarse de sus influencias conjugadas.',
     },
     {
-      termino: 'Simulacion',
+      termino: 'Simulación',
       significado:
         'proceso de diseñar un modelo de un sistema real y llevar a término experiencias con él, con la finalidad de comprender el comportamiento del sistema o evaluar nuevas estrategias –dentro de los límites impuestos por un cierto criterio o un conjunto de ellos– para el funcionamiento del sistema.',
     },
@@ -256,41 +256,47 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
         nombre: 'Regulo Castro Barón',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
-          'Complejo Tecnológico Agroindustrial, Pecuario y Turístico – CTAPT – Regional Antioquia',
+          'Complejo Tecnológico Agroindustrial, Pecuario y Turístico – CTAPT <br>Regional Antioquia',
       },
       {
         nombre: 'Carolina Coca Salazar',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Centro de Diseño Y metrología Regional Distrito Capital',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño Y Metrología <br>Regional Distrito Capital',
       },
       {
         nombre: 'José Gabriel Ortiz Abella',
         cargo: 'Corrector de estilo',
         centro:
-          'Centro de la Industria de la Comunicación Gráfica Regional Distrito Capital',
+          'Centro de la Industria de la Comunicación Gráfica <br>Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        cargo: 'Responsable equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
       {
         nombre: 'Juan Carlos Tapias Rueda',
         cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+      },
+      {
+        nombre: ' ',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -298,26 +304,20 @@ export default {
         nombre: 'Andrea Paola Botello De la Rosa',
         cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
     ],
   },

@@ -18,7 +18,7 @@
 
     // 3.1
     #t_3_1.titulo-segundo(data-aos="fade-right")
-      .h2 3.1.	Dinámica Empresarial
+      .h2 3.1.	La habilitación por parte del Ministerio de Transporte
 
     p(data-aos="fade") La Ley 336 de 1996, establece que:
 
@@ -30,7 +30,7 @@
               .col-lg-1.comilla-inicial
                 i.fas.fa-quote-left
               .col-lg-10
-                p.mb-0 A nivel internacional existen organizaciones que regulan los servicios aéreos y marítimos; los demás modos, como el férreo, el carretero y el fluvial están reglamentados localmente por cada uno de los países. Para realizar un análisis minucioso del marco normativo internacional del transporte de mercancías por carretera es preciso enunciar y conocer las normas de este servicio en Colombia y en los países de la región.
+                p.mb-0 Las empresas interesadas en prestar el servicio público de transporte o constituidas para tal fin, deberán solicitar y obtener habilitación para operar. La habilitación, para efectos de esta Ley, es la autorización expedida por la autoridad competente en cada Modo de transporte para la prestación del servicio público de transporte (Art. 11).
               .col-lg-1.comilla-final
                 i.fas.fa-quote-right       
 
@@ -83,14 +83,14 @@
           .row.justify-content-center.align-items-center
             .col-lg-1
             .col-3.col-sm-2.col-lg-2.px-lg-3
-              img.px-lg-2(src="@/assets/curso/tema3-3.svg")
+              img.px-lg-3(src="@/assets/curso/tema3-3.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.texto-blanco
                   h3.mb-1 Línea de tiempo
                   p.mb-0.text-small La CAN en la historia. 
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-negro(:href="obtenerLink('/downloads/Linea_de_tiempo_La_CAN.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.texto-negro(:href="obtenerLink('/downloads/Linea_de_tiempo_La_CAN_historia.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download   
 
@@ -124,7 +124,7 @@
               .anexo__texto
                 p 
                   strong Anexo. 
-                  | Decisión 898 y 399 aspectos normativos referentes a habilitación empresarial, contrato de transporte, derechos y obligaciones, tránsito aduanero internacional y migración.
+                  | Decisión 398 y 399 aspectos normativos referentes a habilitación empresarial, contrato de transporte, derechos y obligaciones, tránsito aduanero internacional y migración.
 
 </template>
 

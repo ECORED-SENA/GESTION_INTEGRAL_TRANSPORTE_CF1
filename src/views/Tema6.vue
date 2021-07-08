@@ -65,7 +65,7 @@
 
     // 6.1
     #t_6_1.titulo-segundo(data-aos="fade-right")
-      .h2 6.1.	Condiciones para la operación
+      .h2 6.1.	Futuros medios de transporte
 
     .row.mb-4
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
@@ -93,7 +93,7 @@
 
     // 6.2
     #t_6_2.titulo-segundo(data-aos="fade-right")
-      .h2 6.2.	Prospectiva de Movilidad y transporte
+      .h2 6.2.	Prospectiva de movilidad y transporte
 
     p(data-aos="fade") Los coches autónomos sin volante ni pedales, de la empresa General Motors de Estados Unidos, ha solicitado la aprobación legal por parte de la Administración Nacional de Seguridad del Tráfico en las Carreteras de Estados Unidos (NHTSA por sus siglas en inglés), para que se permita la circulación de coches sin volante ni conductor.
     p.mb-4(data-aos="fade") Por otra parte, la empresa Nuro es la primera empresa que recibe el permiso para que sus vehículos autónomos puedan no solo circular legalmente en California, sino explotar con ello servicios comerciales. Nuro pretende ser un eslabón más en la logística de último kilómetro (o última milla), y tiene la mirada puesta en empresas como Amazon o UPS, pero también en restaurantes y pequeñas tiendas. El comercio electrónico, cuyo volumen de negocio se ha disparado, conlleva un fuerte aumento del reparto. 
@@ -161,8 +161,9 @@
               img(src='@/assets/curso/tema6-3-ico.svg', alt='Icono decorativo')
           .col-lg-10.col-12
             p.mb-0 Para afrontar este reto, la entidad cuenta con el apoyo de expertos en la industria 4.0 como el vicepresidente de transformación digital de la ANDI, Santiago Pinzón, quien se reunió en una videoconferencia con funcionarios de las 33 regionales del SENA para hablar acerca de las necesidades específicas del aparato productivo, de cara a la cuarta revolución industrial 
-              strong (https://www.sena.edu.co/es-co/Noticias/Lists/Noticias/DispForm.aspx?ID=3611)
-              |.
+              a.linkk-content(:href="obtenerLink('https://www.sena.edu.co/es-co/Noticias/Lists/Noticias/DispForm.aspx?ID=3611')" target="_blank")  
+                strong (https://www.sena.edu.co/es-co/Noticias/Lists/Noticias/DispForm.aspx?ID=3611)
+                |.
 
 
     p(data-aos="fade") La formación profesional integral que se imparte en el SENA responde a estas novedades y retos, dentro de las estrategias de formación, que faculta el desarrollo del aprendizaje basado en problemas, permitiendo desarrollar en el aprendiz un proceso didáctico propio con una mayor responsabilidad y un rol activo en su aprendizaje, a partir de la planeación, análisis y desarrollo de actividades concretas para proponer soluciones prácticas que contribuyan a la mejora y el desarrollo de su entorno. Es decir, es una estrategia que reconoce que el aprendizaje significativo conduce al aprendiz a un proceso inherente de conocimiento. Es esta misma razón por la cual se entiende que la mejor forma de realizar un proceso simulado es el estudio de casos, entendido este como un proceso hipotético de transformación.
