@@ -161,7 +161,7 @@
               img(src='@/assets/curso/tema6-3-ico.svg', alt='Icono decorativo')
           .col-lg-10.col-12
             p.mb-0 Para afrontar este reto, la entidad cuenta con el apoyo de expertos en la industria 4.0 como el vicepresidente de transformación digital de la ANDI, Santiago Pinzón, quien se reunió en una videoconferencia con funcionarios de las 33 regionales del SENA para hablar acerca de las necesidades específicas del aparato productivo, de cara a la cuarta revolución industrial 
-              a.linkk-content(:href="obtenerLink('https://www.sena.edu.co/es-co/Noticias/Lists/Noticias/DispForm.aspx?ID=3611')" target="_blank")  
+              a.linkk-content(:href="('https://www.sena.edu.co/es-co/Noticias/Lists/Noticias/DispForm.aspx?ID=3611')" target="_blank")  
                 strong (https://www.sena.edu.co/es-co/Noticias/Lists/Noticias/DispForm.aspx?ID=3611)
                 |.
 
