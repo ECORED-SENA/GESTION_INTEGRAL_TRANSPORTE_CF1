@@ -31,7 +31,7 @@
           figure
             img(src='@/assets/curso/tema1-ico3.svg', alt='De la colaboración entre entidades')
         .col-md-11
-          p Ttodos los organismos del Sistema Nacional de Transporte deben trabajar con criterios de coordinación, planeación, descentralización y participación.
+          p Todos los organismos del Sistema Nacional de Transporte deben trabajar con criterios de coordinación, planeación, descentralización y participación.
       .row.align-items-center.justify-content-center(numero="+" titulo="De la participación ciudadana")
         .col-md-1.col-4.mb-4.mb-md-0.pt-2
           figure

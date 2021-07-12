@@ -123,12 +123,15 @@ export default {
   overflow: hidden
   position: relative
   -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
   transform: translateZ(0)
 
 .nav-holder2 *, .nav-holder2 *:before, .nav-holder2 *:after
   -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
   box-sizing: border-box
   -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
   transition: all 0.45s ease
 
 .nav-holder2:before
@@ -140,18 +143,24 @@ export default {
   content: ''
   background-color: #FFBA5B
   opacity: 0.8
+  z-index: 888
   -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  -ms-transition: all 0.45s ease
   transition: all 0.45s ease
 
 .nav-holder2:before
   -webkit-transform: translateY(100%)
+  -moz-transform: translateY(100%)
   transform: translateY(100%)
 
 .nav-holder2:hover:before
   -webkit-transform: translateY(0)
+  -moz-transform: translateY(0)
   transform: translateY(0)
   opacity: 1
   -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
   transition-delay: 0.1s
 
 .nav-holder2
@@ -161,13 +170,14 @@ export default {
     bottom: 0px
     left: 0px
     right: 0px
-    z-index: 100
+    z-index: 999
     bottom: 0
     padding: 1em
   img
     backface-visibility: hidden
     max-width: 100%
     vertical-align: top
+    z-index: 0
   p, h4, i, li, ul
     margin: 0
     opacity: 0
@@ -176,7 +186,8 @@ export default {
   .text
     top: 0
   h4, p, i, li, ul
-    opacity: 1;
+    z-index: 999
+    opacity: 1
     -webkit-transition-delay: 0.2s
     transition-delay: 0.2s
 
