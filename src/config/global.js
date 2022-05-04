@@ -235,7 +235,7 @@ export default {
     {
       texto: 'Economía de Rosquilla. (s.f.).',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      descarga: 'downloads/prueba.pdf',
     },
     {
       texto: '2 minutos para entender el desarrollo sostenible – Spanish',

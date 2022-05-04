@@ -36,7 +36,7 @@
                   h3.mb-1 Figura 1
                   p.mb-0.text-small Estructura del Decreto 1079 del Sector Transporte en Colombia. 
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-negro(:href="obtenerLink('/downloads/Decreto_1071.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.texto-negro(:href="obtenerLink('downloads/Decreto_1071.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download   
 

@@ -32,7 +32,7 @@
             figure.mb-2
               img(src="@/assets/curso/tema6-taxi2.jpg", alt="Taxis aéreos")
             .tarjeta--amarilla.p-lg-3
-              p.mb-4 
+              p.mb-0
                 strong Nota. 
                 | Tomada de https://www.xtremsecure.com.mx/dubai-tendra-taxis-voladores-este-ano/
 
@@ -111,7 +111,7 @@
             .tarjeta--amarilla.p-lg-3.mb-3
               p.mb-0
                 strong Nota. 
-                | Tomada de https://bit.ly/3vAFEAV
+                | Tomada de https://www.hibridosyelectricos.com/articulo/tecnologia/coches-autonomos-volante-mas-cerca-conseguir-aprobacion-legal/20191224145838032278.html
       .col-lg-5.tarjeta--gris.mx-lg-2(data-aos="fade-left")
         .row.justify-content-center
           .col-lg-11
@@ -124,7 +124,7 @@
             .tarjeta--amarilla.p-lg-3.mb-3
               p.mb-0
                 strong Nota. 
-                | Tomada de https://bit.ly/3uvFGZv         
+                | Tomada de https://www.hibridosyelectricos.com/articulo/actualidad/nuro-consigue-permiso-explotar-vehiculos-autonomos-servicio-reparto-california/20210111150127041490.html
 
     p(data-aos="fade") De otra parte, el SENA ha incursionado en la anticipación del sector del transporte y las mercancías, a través del documento 
       strong.etiqueta Prospección de la formación en el sector transporte terrestre de carga, Bogotá-Región, 2025, 
@@ -142,7 +142,7 @@
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p La simulación tecnológica va íntimamente ligada a la innovación, a la creatividad y a dar solución efectiva y eficiente a necesidades puntuales de transporte y logística para el propósito de esta formación.
         p El internet de las cosas y el aprendizaje automático son ayudas importantes que reducen tiempos, reprocesos, recursos y eliminan fallas tempranas de los productos, en estos tiempos de la tecnología 4.0, o la llamada cuarta revolución industrial. Como lo dice el blog de la tecnología 4.0, 
-          strong (https://bit.ly/3p1uJOo), 
+          strong (https://blog.infaimon.com/tecnologia-4-0/), 
           | las tecnologías que han permitido esta evolución son variadas, aunque cabe mencionar las siguientes: big data y análisis de datos, robots autónomos, simulación, sistemas para la integración vertical y horizontal, IoT (internet de las cosas), ciberseguridad, 
           strong Cloud computing, 
           | fabricación aditiva.

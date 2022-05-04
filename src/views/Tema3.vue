@@ -63,7 +63,7 @@
           h3 Acuerdo sobre Transporte Internacional Terrestre (ATIT)
           p.mb-4 Actualmente son 13 los países miembros: República Argentina, Estado Plurinacional de Bolivia, República Federativa del Brasil, República de Chile, República de Colombia, República del Ecuador, Estados Unidos Mexicanos, República del Paraguay, República del Perú, República Oriental del Uruguay, República Bolivariana de Venezuela, República de Cuba y República de Panamá.
           
-          a.boton.color-acento-contenido(:href="obtenerLink('/downloads/Acuerdo_Tranporte_Internacional_terrestre.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-contenido(:href="obtenerLink('downloads/Acuerdo_Tranporte_Internacional_terrestre.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 
@@ -90,7 +90,7 @@
                   h3.mb-1 Línea de tiempo
                   p.mb-0.text-small La CAN en la historia. 
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-negro(:href="obtenerLink('/downloads/Linea_de_tiempo_La_CAN_historia.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.texto-negro(:href="obtenerLink('downloads/Linea_de_tiempo_La_CAN_historia.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download   
 
@@ -107,7 +107,7 @@
           .col-lg-6
             p Dentro de este marco y en previsión del transporte fronterizo, existen normas internacionales que se llaman decisiones de los países expedidas por la CAN, la última de las cuales es la Decisión 837 de 2019 que sustituye la Decisión 399 sobre Transporte Internacional de Mercancías por Carretera. 
           .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('/downloads/Decision_837.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('downloads/Decision_837.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -118,7 +118,7 @@
           .col-lg-6
             p También existe la Decisión 398 de la Comisión del Acuerdo de Cartagena, que es la decisión de los países miembros de regular el transporte internacional de pasajeros por carretera, expedida en enero de 1997, donde se destacan internacional y migración, entre otros.     
           .col-lg-6     
-            a.anexo.mb-4(:href="obtenerLink('/downloads/Decision_398_399.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('downloads/Decision_398_399.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
